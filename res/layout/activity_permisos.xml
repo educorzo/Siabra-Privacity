@@ -1,0 +1,421 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.privacity.PermisosActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray"
+        android:orientation="vertical"
+        android:weightSum="1" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.88" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center" >
+
+                    <TableRow
+                        android:id="@+id/tableRow1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center" >
+
+                        <CheckBox
+                            android:id="@+id/chkNombre"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@xml/nombre_checkbox"
+                            android:button="@null" />
+
+                        <CheckBox
+                            android:id="@+id/chkApellidos"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@xml/apellidos_checkbox"
+                            android:button="@null" />
+
+                        <CheckBox
+                            android:id="@+id/chkDNI"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@xml/dni_checkbox"
+                            android:button="@null" />
+
+                        <CheckBox
+                            android:id="@+id/chkPais"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@xml/pais_checkbox"
+                            android:button="@null" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center" >
+
+                        <TextView
+                            android:id="@+id/textNombre"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/nombre"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/textApellidos"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/apellidos"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/textDNI"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/dni"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/textPais"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/pais"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="15sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center" >
+
+                        <CheckBox
+                            android:id="@+id/chkNacimiento"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@xml/nacimiento_checkbox"
+                            android:button="@null" />
+
+                        <CheckBox
+                            android:id="@+id/chkEstatus"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@xml/estatus_checkbox"
+                            android:button="@null" />
+
+                        <CheckBox
+                            android:id="@+id/chkTelefono"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@xml/telefono_checkbox"
+                            android:button="@null" />
+
+                        <CheckBox
+                            android:id="@+id/chkEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@xml/email_checkbox"
+                            android:button="@null" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center" >
+
+                        <TextView
+                            android:id="@+id/textNacimiento"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/nacimiento"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/textEstatus"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/estatus"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/textTelefono"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/telefono"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/textEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/email"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="15sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center" >
+
+                        <CheckBox
+                            android:id="@+id/chkDireccion"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@xml/direccion_checkbox"
+                            android:button="@null" />
+
+                        <CheckBox
+                            android:id="@+id/chkProfesion"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@xml/profesion_checkbox"
+                            android:button="@null" />
+
+                        <CheckBox
+                            android:id="@+id/chkEmpresa"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@xml/empresa_checkbox"
+                            android:button="@null" />
+
+                        <CheckBox
+                            android:id="@+id/chkWebProfesional"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@xml/webprofesional_checkbox"
+                            android:button="@null" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center" >
+
+                        <TextView
+                            android:id="@+id/textDireccion"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/direccion"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/textProfesion"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingLeft="2dp"
+                            android:paddingRight="2dp"
+                            android:text="@string/profesion"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/textEmpresa"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingLeft="2dp"
+                            android:paddingRight="2dp"
+                            android:text="@string/empresa"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/textProfesional"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/profesional"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="15sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center" >
+
+                        <CheckBox
+                            android:id="@+id/chkTwitter"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@xml/twitter_checkbox"
+                            android:button="@null" />
+
+                        <CheckBox
+                            android:id="@+id/chkWebPersonal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@xml/webpersonal_checkbox"
+                            android:button="@null" />
+
+                        <CheckBox
+                            android:id="@+id/chkLinkedin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@xml/linkedin_checkbox"
+                            android:button="@null" />
+
+                        <CheckBox
+                            android:id="@+id/chkFacebook"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@xml/facebook_checkbox"
+                            android:button="@null" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center" >
+
+                        <TextView
+                            android:id="@+id/textTwitter"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/twitter"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/textPersonal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/personal"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/textLinkedin"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/linkedin"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/textFacebook"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/facebook"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="15sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center" >
+
+                        <CheckBox
+                            android:id="@+id/chkComentario"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@xml/comentario_checkbox"
+                            android:button="@null" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tableRow10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center" >
+
+                        <TextView
+                            android:id="@+id/textComentario"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/comentario"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textSize="15sp" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/AceptarPerfil"
+            style="@style/btnStyleGreen"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="0.12"
+            android:onClick="validar"
+            android:text="@string/validar" />
+    </LinearLayout>
+
+</FrameLayout>

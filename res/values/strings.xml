@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="icon_name">PRIVACITY</string>
+    <string name="app_name">SIABRA privacity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_permisos">My authorizations</string>
+    <string name="title_activity_menu">SIABRA privacity</string>
+    <string name="title_activity_obtener_perfil">Find profile</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_lista_perfil">My profiles</string>
+    <string name="mis_perfiles">My profiles</string>
+    <string name="add_perfil">Add profile</string>
+    <string name="find_perfil">Find profile</string>
+    <string name="mis_permisos">My authorizations</string>
+    <string name="autor">Author : </string>
+    <string name="codigo">Code : </string>
+    <string name="permisos">Authorizations :</string>
+    <string name="descripcion">Description :</string>
+    <string name="nombre">Name</string>
+    <string name="apellidos">Surname</string>
+    <string name="dni">DNI</string>
+    <string name="telefono">Telephone</string>
+    <string name="direccion">Address</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="estatus">Estatus</string>
+    <string name="pais">Country</string>
+    <string name="personal">Personal</string>
+    <string name="profesion">Profession</string>
+    <string name="profesional">Professional</string>
+     <string name="nacimiento">Birthday</string>
+    <string name="empresa">Company</string>
+    <string name="email">Email</string>
+    <string name="comentario">Coment</string>
+    
+    <string name="dnombre">name</string>
+    <string name="dapellidos">surname</string>
+    <string name="dtelefono">phone number</string>
+    <string name="ddireccion">address</string>
+    <string name="dlinkedin">linkedin</string>
+    <string name="dfacebook">facebook</string>
+    <string name="dtwitter">twitter</string>
+    <string name="destatus">status</string>
+    <string name="dpais">country</string>
+    <string name="dpersonal">personal web</string>
+    <string name="dprofesion">profession</string>
+    <string name="dprofesional">profesional web</string>
+     <string name="dnacimiento">birthdate</string>
+    <string name="dempresa">company</string>
+    <string name="demail">email</string>
+    <string name="dcomentario">coment</string>
+   
+    <string name="contenido">The app to handle which information can get the rest of the users.\n To start authorize this app.</string>
+    <string name="bienvenido">Welcome to SIABRA Privacity.</string>
+    <string name="perfilAgregado">The profile has been added to your list.</string>
+     <string name="perfilCancelado">The profile has been cancelated from your list.</string>
+    <string name="errorDeConexion">Connection error.</string>
+    <string name="Upps">Upss, something goes wrong.</string>
+    <string name="VerificadorIncorrecto">Incorrect pin.</string>
+    <string name="permisosModificados">Permisions modified</string>
+    <string name="nohay">You haven\'t any profile</string>
+    <string name="inserte">Insert the profile code : </string>
+    <string name="aviso">Codes only have numbers and/or characters</string>
+    <string name="buscar">Find</string>
+    <string name="validar">Validate</string>
+    <string name="aceptar">Acept</string>
+    <string name="cancelar">Cancel</string>
+    <string name="eliminar">Delete</string>
+    <string name="agregar">Add</string>
+    <string name="siguiente">Next</string>
+    <string name="title_activity_perfil_view">Profile</string>
+
+</resources>

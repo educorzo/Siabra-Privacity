@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.superlucky"
+    android:versionCode="1"
+    android:versionName="1.0" >
+ 
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/icon_name"
+        android:theme="@style/CustomActionBarTheme"
+        >
+        <!--  android:theme="@style/AppTheme" -->
+
+        <uses-library android:name="android.test.runner" />
+
+        <activity
+            android:name="com.privacity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name="com.privacity.PermisosActivity"
+            android:label="@string/title_activity_permisos" >
+        </activity>
+        
+        <activity
+            android:name="com.privacity.MenuActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.privacity.ObtenerPerfilActivity"
+            android:label="@string/title_activity_obtener_perfil" >
+        </activity>
+        <activity
+            android:name="com.privacity.BuscarPerfilActivity"
+            android:label="@string/title_activity_obtener_perfil" >
+        </activity>
+        
+        <activity
+            android:name="com.privacity.ListaPerfilActivity"
+            android:label="@string/title_activity_lista_perfil" >
+        </activity>
+        <activity
+            android:name="com.privacity.PerfilActivity"
+            android:label="@string/title_activity_perfil_view" >
+        </activity>
+    </application>
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:label="superlucky"
+        android:targetPackage="com.superlucky" />
+
+</manifest>
