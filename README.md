@@ -1,7 +1,7 @@
 Siabra-Privacity
 ================
 
-SIABRA Android app for knowing what is the information you are showing in every moment.
+<img src="http://i.imgur.com/TtFbBT3.png" /> SIABRA Android app for knowing what is the information you are showing in every moment.
 
 Before check the code take a look at http://siabra.pythonanywhere.com .
 If you want to work with this project, fork it and use Eclipse to open the project.
